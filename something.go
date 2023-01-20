@@ -1,7 +1,15 @@
 package main
 
 import (
-"fmt"
+	"fmt"
 )
 
-fmt.Println("Hello, World!")
+func main () {
+	name := "444b"
+	fmt.Println("Hello, World!", name)
+	num := 1
+	word := "apple"
+	fmt.Println(num, word)
+}
+
+
